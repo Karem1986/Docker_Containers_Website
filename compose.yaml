@@ -1,0 +1,8 @@
+version: '2.29.1'
+services:
+  devcontainer:
+    build:
+      dockerfile: dockerfile
+  database:
+    image: postgres:9.6
+    restart: always
