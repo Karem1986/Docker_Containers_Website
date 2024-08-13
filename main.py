@@ -1,8 +1,9 @@
 
-ask_name = input('Please enter your name')
+# ask_name = input('Please enter your name')
+print("Please enter your name")
 
 print("apple or leek potatoes?")
-ask_which_pie = input('Which pie would you like to make?')
+ask_which_pie = print('Which pie would you like to make?')
 
 if ask_which_pie == 'apple':
   print('Your pie will have as ingredients:')

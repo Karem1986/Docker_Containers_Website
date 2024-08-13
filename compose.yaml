@@ -1,8 +1,14 @@
 version: '2.29.1'
 services:
+  nginx:
+    image: nginx:1.27.0
+    ports:
+      -"8080:80"
   devcontainer:
     build:
       dockerfile: dockerfile
   database:
     image: postgres:9.6
     restart: always
+    environment:
+      POSTGRES_PASSWORD: MYPASSWORD
