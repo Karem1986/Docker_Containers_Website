@@ -1,5 +1,4 @@
 
-# ask_name = input('Please enter your name')
 print("Please enter your name")
 
 print("apple or leek potatoes?")
@@ -14,5 +13,4 @@ elif ask_which_pie == 'leek potatoes':
  print('Your pie will have as ingredients:')
  print(leek_potato_pie)
 
-
-#  print("Building with Docker is awesome!")
+ print("Building with Docker is awesome!")
