@@ -2,6 +2,6 @@ version: '2.1'
 
 services:
     web_application:
-      image: web_application:v1
+      image: web_application:v2
       ports:
         - '8380:80'
