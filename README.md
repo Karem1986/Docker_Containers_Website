@@ -1,4 +1,4 @@
-<!--HTML Website deployed with Docker and Nginx  -->
+# HTML Website deployed with Docker and Nginx Steps:
 1. Clone this repository in your machine
 2. Git pull
 3. Make changes to the index html to see how Docker containers and images work
